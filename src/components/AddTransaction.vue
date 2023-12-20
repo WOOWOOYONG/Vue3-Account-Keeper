@@ -10,6 +10,8 @@ const handleAdd = () => {
     return
   }
   store.addTransaction(title.value, amount.value)
+  title.value = ''
+  amount.value = 0
 }
 </script>
 
@@ -29,7 +31,7 @@ const handleAdd = () => {
       <label for="amount" class="block text-lg my-4">花費</label>
       <input
         v-model="amount"
-        type="text"
+        type="number"
         placeholder="輸入花費"
         class="rounded px-2 py-1 text-base"
       />
