@@ -28,9 +28,9 @@ const { removeTransaction } = useTransaction()
 
 <style scoped>
 .plus {
-  color: green;
+  @apply text-green-600;
 }
 .minus {
-  color: red;
+  @apply text-red-600;
 }
 </style>

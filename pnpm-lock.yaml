@@ -6,6 +6,7 @@ specifiers:
   '@tsconfig/node18': ^18.2.2
   '@types/jsdom': ^21.1.6
   '@types/node': ^18.19.3
+  '@unocss/transformer-directives': ^0.58.0
   '@vitejs/plugin-vue': ^4.5.2
   '@vue/eslint-config-prettier': ^8.0.0
   '@vue/eslint-config-typescript': ^12.0.0
@@ -27,6 +28,7 @@ specifiers:
 
 dependencies:
   '@formkit/auto-animate': 0.8.1
+  '@unocss/transformer-directives': 0.58.0
   pinia: 2.1.7_tr3a7r3aylqk3jeycoeno2fp3e
   vue: 3.3.12_typescript@5.3.3
   vue-router: 4.2.5_vue@3.3.12
@@ -1115,7 +1117,6 @@ packages:
 
   /@unocss/core/0.58.0:
     resolution: {integrity: sha512-KhABQXGE2AgtO9vE28d+HnciuyGDcuygsnQdUwlzUuR4K05OSw2kRE9emRN4HaMycD+gA/zDbQrJxTXb6mQUiA==}
-    dev: true
 
   /@unocss/extractor-arbitrary-variants/0.58.0:
     resolution: {integrity: sha512-s9wK2UugJM0WK1HpgPz2kTbpeyQc46zais+nauN/ykVX6NMq8PtGzSWszzf+0aIbtWAQGiqAfiYNTpf09tJHfg==}
@@ -1216,7 +1217,6 @@ packages:
     dependencies:
       '@unocss/core': 0.58.0
       magic-string: 0.30.5
-    dev: true
 
   /@unocss/scope/0.58.0:
     resolution: {integrity: sha512-XgUXZJvbxWSRC/DNOWI5DYdR6Nd6IZxsE5ls3AFA5msgtk5OH4YNQELLMabQw7xbRbU/fftlRJa3vncSfOyl6w==}
@@ -1251,7 +1251,6 @@ packages:
       '@unocss/core': 0.58.0
       '@unocss/rule-utils': 0.58.0
       css-tree: 2.3.1
-    dev: true
 
   /@unocss/transformer-variant-group/0.58.0:
     resolution: {integrity: sha512-O2n8uVIpNic57rrkaaQ8jnC1WJ9N6FkoqxatRDXZ368aJ1CJNya0ZcVUL6lGGND0bOLXen4WmEN62ZxEWTqdkA==}
@@ -1802,7 +1801,6 @@ packages:
     dependencies:
       mdn-data: 2.0.30
       source-map-js: 1.0.2
-    dev: true
 
   /cssesc/3.0.0:
     resolution: {integrity: sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==}
@@ -2771,7 +2769,6 @@ packages:
 
   /mdn-data/2.0.30:
     resolution: {integrity: sha512-GaqWWShW4kv/G9IEucWScBx9G1/vsFZZJUO+tD26M8J8z3Kw5RDQjaoZe03YAClgeS/SWPOcb4nkFBTEi5DUEA==}
-    dev: true
 
   /memorystream/0.3.1:
     resolution: {integrity: sha512-S3UwM3yj5mtUSEfP41UZmt/0SCoVYUcU1rkXv+BQ5Ig8ndL4sPoJNBUJERafdPb5jjHJGuMgytgKvKIf58XNBw==}
